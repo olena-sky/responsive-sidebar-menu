@@ -131,7 +131,6 @@ button {
 
 /*=============== SIDEBAR ===============*/
 .sidebar{
-  outline: 2px solid red;
   position: fixed;
   left: -120%;
   top: 0;
@@ -263,7 +262,9 @@ button {
 }
 
 /* Show sidebar */
-
+.show-sidebar{
+  left: 0;
+}
 
 /* Active link */
 
