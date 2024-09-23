@@ -365,4 +365,34 @@ body.dark-theme{
   .sidebar__title{
     transition: padding .4s;
   }
+
+  /* Redusce sidebar */
+  .show-sidebar{
+    width: 90px;
+  }
+
+  .show-sidebar .sidebar__user{
+    padding-left: 1.25rem;
+  }
+
+  .show-sidebar .sidebar__title{
+    padding-left: 0;
+    margin-inline: auto;
+  }
+
+  .show-sidebar .sidebar__info,
+  .show-sidebar .sidebar__link span{
+    opacity: 0;
+        }
+
+        .main{
+          padding-left: 340px;
+          padding-top: 8rem;
+          transition: padding .4s;
+        }
+
+        /* Add paddiing left */
+        .left-pd{
+          padding-left: 114px;
+        }
 }
